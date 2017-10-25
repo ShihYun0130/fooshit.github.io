@@ -110,7 +110,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["hello world", "we come from ntuim."],    /* You can change the home section typing text from
+            strings: ["hello world.", "we come from ntuim."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
