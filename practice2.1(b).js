@@ -1,5 +1,6 @@
-function findRound(){
-	var x = Math.round(document.getElementById("enterRound").value);
+function findSqrt(){
+	var x = document.getElementById("enterRound").value;
+	var y = Math.sqrt(Math.ceil(x),2)
 	var roundResult = document.getElementById("roundNumber");
-	roundResult.innerHTML = x;
+	roundResult.innerHTML = y;
 }
