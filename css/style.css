@@ -109,6 +109,10 @@ fieldset {
     padding: 0
 }
 
+.resize {
+width :200px;
+}
+
 .section-space-padding {
     padding: 100px 0px;
 }
