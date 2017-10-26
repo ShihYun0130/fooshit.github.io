@@ -1,6 +1,6 @@
 function countBMI() {
-    var weight = $('#enterWeight').val();
-    var height = $('#enterHeight').val();
+    var weight = document.getElementById("enterWeight").value;
+    var height = document.getElementById("enterHeight").value;
     //----------practice1.1-------------------------
     var a = weight;
     var b = height;
@@ -10,10 +10,10 @@ function countBMI() {
     bmi = a / ((b / 100) * (b / 100));
     //----------practice1.3-------------------------
     if (bmi >= 25) {
-        result = "Your BMI is a little bit high QQ.";
+        var resultBMI = document.getElementById("BMINumber");
+        resultBMI.innerHTML = "Your BMI is a little bit high QQ.";
     } else {
-        result = ;
+        var resultBMI = document.getElementById("BMINumber");
+        resultBMI.innerHTML = "Your BMI is just fine :))."; ;
     }
-    var resultBMI = document.getElementById("NumberBMI");
-    resultBMI.innerHTML = "Your BMI is just fine :)).";
 }
