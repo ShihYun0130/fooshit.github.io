@@ -238,23 +238,23 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
-                        <h2>My Services.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <h2>Little Practice</h2>
+                        <p>practice makes perfect !</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
                         <i class="fa fa-mobile color-1"></i>
                         <h3>practice 1</h3> Please enter a number：
-                        <input type: "number" name="enterNumber" id="enterNumber">
+                        <input type: "number" name="enterNumber" id="enterNumber" width = 75%>
                         <button onclick="enterNumber()">GO</button>
                         <hr>
                         <h4 id="Number">Results：</h4>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
                         <i class="fa fa-tablet color-2"></i>
                         <h3>practice 1.1</h3>Please enter your weight：
@@ -266,20 +266,49 @@
                         <h4 id="BMINumber">Results：</h4>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
                         <i class="fa fa-code color-3"></i>
-                        <h3>practice 2.1</h3>Please find the absolute value
+                        <h3>practice 2.1</h3>
+                        請找輸入數字平方後最接近的整數
                         <input type: "number" name="enterAbs" id="enterAbs">
-                        <button onclick="findAbs()">GO</button>
-                        <h4 id="absNumber">Results：</h4>
-                        <input type: "number" name="enterRound" id="enterRound">
                         <button onclick="findRound()">GO</button>
+                        <h4 id="absNumber">Results：</h4>
+                        請輸入正數後，找出無條件進位後的整數的開根號
+                        <input type: "number" name="enterRound" id="enterRound">
+                        <button onclick="findSqrt()">GO</button>
                         <h4 id="roundNumber">Results：</h4>
                         <hr>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-9">
+                    <div class="services-detail">
+                        <i class="fa fa-support color-4"></i>
+                        <h3>practice 2 bonus</h3>隨機產生上界到零之間的整數
+                        <h4>輸入上界</h4>
+                        <input type: "number" name="enterUps" id="enterUps">
+                        <br><br>
+                        <button onclick="findRandom()">GO</button>
+                        <hr>
+                         <h4 id="randomNumber">Results：</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="services-detail">
+                        <i class="fa fa-html5 color-5"></i>
+                        <h3>practice 2 final work</h3>
+                        <a href = "start.html"><h4>click here to see your test</h4></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="services-detail">
+                        <i class="fa fa-ge color-6"></i>
+                        <h3>CSS3 Design</h3>
+                        <hr>
+                        <p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+                    </div>
+                </div>
+                 <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
                         <i class="fa fa-support color-4"></i>
                         <h3>Full Support</h3>
@@ -287,18 +316,18 @@
                         <p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                 <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
-                        <i class="fa fa-html5 color-5"></i>
-                        <h3>HTML5 Design</h3>
+                        <i class="fa fa-support color-4"></i>
+                        <h3>Full Support</h3>
                         <hr>
                         <p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                 <div class="col-md-4 col-sm-9">
                     <div class="services-detail">
-                        <i class="fa fa-ge color-6"></i>
-                        <h3>CSS3 Design</h3>
+                        <i class="fa fa-support color-4"></i>
+                        <h3>Full Support</h3>
                         <hr>
                         <p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
                     </div>
@@ -448,6 +477,7 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="practice2.1(a).js"></script>
     <script type="text/javascript" src="practice2.1(b).js"></script>
+    <script type="text/javascript" src="practice2bonus.js"></script>
 </body>
 
 </html>
