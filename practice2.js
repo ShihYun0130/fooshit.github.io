@@ -1,5 +1,6 @@
 function multiTable(){
-	//document.getElementById("Table").="HELLO";
+
+	document.getElementById("Table").innerHTML=" ";
 	var table = document.getElementById("Table");
 	var i = 1;
 	var j = 1;
