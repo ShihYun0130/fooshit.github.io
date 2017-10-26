@@ -1467,3 +1467,8 @@ ul.portfolio li.active {
 .uipasta-credit a:hover {
     color: #ffffff;
 }
+
+.practice2Table div{
+  width: 30px;
+  display: inline-block;
+}
