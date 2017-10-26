@@ -1,7 +1,7 @@
 function multiTable(){
 
-	document.getElementById("Table").innerHTML=" ";
 	var table = document.getElementById("Table");
+	table.innerHTML = " ";
 	var i = 1;
 	var j = 1;
 	while(i <= 9)
