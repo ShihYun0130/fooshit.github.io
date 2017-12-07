@@ -9,7 +9,7 @@ function checkTriangle(){
 	edge2 = Number(edge2);
 	edge3 = Number(edge3);
 	
-	if (edge1 + edge2 > edge3 && edge2 + edge3 > edge1 && edge1 + edge3 > edge2) {
+	if ((edge1 + edge2 > edge3) && (edge2 + edge3 > edge1) && (edge1 + edge3 > edge2)) {
 		if (pow(edge1,2) == pow(edge2,2) + pow(edge3,2) || pow(edge2,2) == pow(edge1,2) + pow(edge3,2) ||pow(edge3,2) == pow(edge2,2) + pow(edge1,2)) {
 			x = "是，直角三角形";
 		}
