@@ -20,5 +20,5 @@ function checkTriangle(){
 	else{
 		x = "否";
 	}
-	answer.innerHTML = edge1 + edge2;
+	answer.innerHTML = x;
 }
