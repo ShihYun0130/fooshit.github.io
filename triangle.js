@@ -18,6 +18,6 @@ function checkTriangle(){
 	else{
 		x = "否";
 	}
-	var answer = document.getElementById("triangleResult");
-	answer.innerHTML = edge1;
+	var class2answer = document.getElementById("triangleResult");
+	class2answer.innerHTML = edge1;
 }
