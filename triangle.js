@@ -7,13 +7,15 @@ function checkTriangle(){
 	var x ;
 	
 	if (edge1 + edge2 > edge3 && edge2 + edge3 > edge1 && edge1 + edge3 > edge2) {
-
 		if (pow(edge1,2) == pow(edge2,2) + pow(edge3,2) || pow(edge2,2) == pow(edge1,2) + pow(edge3,2) ||pow(edge3,2) == pow(edge2,2) + pow(edge1,2)) {
-				x = "是，直角三角形";
+			x = "是，直角三角形";
+		}
+		else{
+			
 		}
 	}
 	else{
 		x = "否";
 	}
-	answer.innerHTML = x;
+	answer.innerHTML = edge1 + edge2;
 }
