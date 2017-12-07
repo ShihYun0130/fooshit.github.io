@@ -12,7 +12,7 @@ function checkTriangle(){
 		}
 	}
 	else{
-		 "否";
+		var x = "否";
 	}
 	answer.innerHTML = x;
 }
