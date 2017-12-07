@@ -1,4 +1,3 @@
-
 function checkTriangle(){
         var edge1 = document.getElementById("edge1").value;
 	var edge2 = document.getElementById("edge2").value;
