@@ -11,8 +11,11 @@ function checkTriangle(){
 		if (Math.pow(edge1,2) == Math.pow(edge2,2) + Math.pow(edge3,2) || Math.pow(edge2,2) == Math.pow(edge1,2) + Math.pow(edge3,2) ||Math.pow(edge3,2) == Math.pow(edge2,2) + Math.pow(edge1,2)) {
 			x = "是，直角三角形";
 		}
-		else{
-			x = "是，三角形";
+		else if (edge1 == edg2 && edge2 == edge3){
+			x = "是，正三角形";
+		}
+		else if (edge1 == edg2 || edge2 == edge3 || edge1 == edge3){
+			x = "是，等腰三角形";
 		}
 	}
 	else{
