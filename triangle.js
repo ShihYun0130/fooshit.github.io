@@ -4,7 +4,7 @@ function checkTriangle(){
         var edge1 = document.getElementById("edge1").value;
 	var edge2 = document.getElementById("edge2").value;
 	var edge3 = document.getElementById("edge3").value;
-	var x ;
+	var x;
 	edge1 = Number(edge1);
 	edge2 = Number(edge2);
 	edge3 = Number(edge3);
