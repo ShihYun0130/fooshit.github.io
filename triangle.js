@@ -1,6 +1,5 @@
 
 function checkTriangle(){
-	var answer = document.getElementById("triangleResult");
         var edge1 = document.getElementById("edge1").value;
 	var edge2 = document.getElementById("edge2").value;
 	var edge3 = document.getElementById("edge3").value;
@@ -20,5 +19,6 @@ function checkTriangle(){
 	else{
 		x = "否";
 	}
+	var answer = document.getElementById("triangleResult");
 	answer.innerHTML = edge1;
 }
