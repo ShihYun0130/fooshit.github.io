@@ -19,5 +19,5 @@ function checkTriangle(){
 		x = "否";
 	}
 	var class2answer = document.getElementById("triangleResult");
-	class2answer.innerHTML = edge1;
+	class2answer.innerHTML = x;
 }
