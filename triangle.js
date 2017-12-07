@@ -1,9 +1,9 @@
 
 function checkTriangle(){
 	var answer = document.getElementById("triangleResult");
-        var edge1 = document.getElementById("edge1").value;
-	var edge2 = document.getElementById("edge2").value;
-	var edge3 = document.getElementById("edge3").value;
+        var edge1 = Number(document.getElementById("edge1").value);
+	var edge2 = Number(document.getElementById("edge2").value);
+	var edge3 = Number(document.getElementById("edge3").value);
 	var x ;
 	
 	if (edge1 + edge2 > edge3 && edge2 + edge3 > edge1 && edge1 + edge3 > edge2) {
