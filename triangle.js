@@ -14,7 +14,7 @@ function checkTriangle(){
 			x = "是，直角三角形";
 		}
 		else{
-			
+			x = "是，三角形";
 		}
 	}
 	else{
