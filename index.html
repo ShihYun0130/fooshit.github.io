@@ -343,6 +343,30 @@
                         <h4 id="triangleResult">Results：</h4>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="services-detail">
+                        <i class="fa fa-html5 color-5"></i>
+                        <h4>輸入邊長 : </h4>
+                        <input type: "number" name="inputSide" id="inputSide">
+                        <br>
+                        <button onclick="generateTriangle()">GO</button>
+                        <hr>
+                        <h4 id="demon"></h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-9">
+                    <div class="services-detail">
+                        <i class="fa fa-html5 color-5"></i>
+                        <h4>產生一個隨機數</h4>
+                        <script>
+                            var sedd = Math.floor(Math.random() * 100) + 1;
+                        </script>
+                        <input type: "number" name="one" id="one">
+                        <button onclick="checkAns(sedd)">Guess!</button>
+                        <hr>
+                        <h4 id="printOut"></h4>
+                    </div>
+                </div>
                <div class="col-md-4 col-sm-6">
                      <div class="services-detail">
                          <i class="fa fa-code color-3"></i>
@@ -498,6 +522,8 @@
     <script type="text/javascript" src="practice2.1(a).js"></script>
     <script type="text/javascript" src="practice2.1(b).js"></script>
     <script type="text/javascript" src="practice2bonus.js"></script>
+    <script type="text/javascript" src="triangle2.js"></script>
+    <script type="text/javascript" src="guessNum.js"></script>
 </body>
 
 </html>
