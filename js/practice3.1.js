@@ -4,9 +4,9 @@ var n = document.getElementById("enterNumber").value
 var num = n;
 var sum = 0;  
 //-----題目：計算從1到輸入數字的總和(用for的方法)-----------------------------------------------------  
-for(var _ = 1; _ <= __; _ = _ + 1)
+for(var i = 1; i <= num; i = i + 1)
 {
-  ___ = ___  + __ ;
+  sum = sum  + i ;
 }
 //-------------------------------------------------------------------------------------------------
 var c = document.getElementById("Number");

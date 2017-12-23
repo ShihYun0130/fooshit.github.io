@@ -7,14 +7,14 @@ function checkTriangle(){
 	edge2 = Number(edge2);
 	edge3 = Number(edge3);
 	
-	if ((         ) && (         ) && (         )) {
+	if ((    edge1 + edge2 > edge3     ) && (    edge1 + edge3 > edge2     ) && (    edge2 + edge3 > edge1     )) {
 		if (Math.pow(edge1,2) == Math.pow(edge2,2) + Math.pow(edge3,2) || Math.pow(edge2,2) == Math.pow(edge1,2) + Math.pow(edge3,2) ||Math.pow(edge3,2) == Math.pow(edge2,2) + Math.pow(edge1,2)) {
 			x = "是，直角三角形";
 		}
-		else if (          &&          ){
+		else if (    edge1 == edge3      &&    edge1 == edge2      ){
 			x = "是，正三角形";
 		}
-		else if (          ||           ||          ){
+		else if (    edge1 == edge2      ||     edge1 == edge3      ||     edge2 == edge3     ){
 			x = "是，等腰三角形";
 		}
 		else{
