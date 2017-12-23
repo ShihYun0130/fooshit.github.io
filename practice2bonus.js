@@ -1,8 +1,8 @@
 function findRandom(){
 	var ups = document.getElementById("enterUps").value;
-	
-	var output = Math.floor (Math.random() * ups );
-	
+	//ups 是輸入的上界
+	var output = Math.floor(Math.random()*ups)
+	// output是答案，讓答案是從 0到上界 的隨機一個數
 	var randomResult = document.getElementById("randomNumber");
 	randomResult.innerHTML = output;
 }

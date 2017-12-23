@@ -1,22 +1,24 @@
-/*var n = document.getElementById("enterNumber").value
-var sum = 0;    
-//cin  >> n;
-for(var i = 0; i <= n; i++)
-{
-	sum += i;
-}
-document.write("the sum from 1 to "+ n + " is "+ sum)*/
+function countBMI() {
+    var weight = document.getElementById("enterWeight").value;
+    var height = document.getElementById("enterHeight").value;
+    //----------practice1.1-------------------------
+    //宣告兩個變數，分別把他們的值變成為"weight"、"height"再宣告一個變數用來存取計算後的BMI值吧!
+    var w = weight;
+    var h = height;
+    var bmi = 0;
 
-function enterNumber(){
-var n = document.getElementById("enterNumber").value
-var sum = 0;    
-for(var i = 0; i <= n; i++)
-{
-  sum += i;
-}
-var c = document.getElementById("Number");
-c.innerHTML = "Result: <br> The sum from 1 to "+Number(n)+" is "+Number(sum)
-//var para = document.createElement("h4");
-//para.appendChild(document.createTextNode("The sum from 1 to "+Number(n)+" is "+Number(sum)));
-//c.appendChild(para);
+    //----------practice1.2-------------------------
+    //寫出BMI的計算公式吧!
+    bmi = w / (h*h);
+    //----------practice1.3-------------------------
+    if(bmi > 22)/*這裡應該填上什麼條件式呢?*/
+    {
+        var resultBMI = document.getElementById("BMINumber");
+        resultBMI.innerHTML = "your BMI is:  " + bmi + ",and you have to go on a diet :((";
+    }
+    else/*這裡應該填上什麼條件式呢?*/
+    {
+        var resultBMI = document.getElementById("BMINumber");
+        resultBMI.innerHTML = "your BMI is:  " + bmi + ",and your BMI is just fine :))";
+    }
 }
